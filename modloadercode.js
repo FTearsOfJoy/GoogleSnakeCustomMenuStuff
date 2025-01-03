@@ -34,6 +34,7 @@ window.moreMenu = {
       'https://i.postimg.cc/qRdJmPDM/Blue-Bullet.png',
       'https://i.postimg.cc/fL4LGtys/Eternal.png',
       'https://i.postimg.cc/LXzX29g1/Fire-Bunny.png'
+      'https://i.postimg.cc/Zqs5zFBP/insane.png'
     ]) document.querySelector('#speed').appendChild(uiImage(src))
   
     for(let src of [
@@ -332,6 +333,9 @@ window.moreMenu = {
             break a
           case 13:
             b = .00001                     
+            break a
+          case 14:
+            b = 35.7                     
             break a
           default:
             b = 1                          
