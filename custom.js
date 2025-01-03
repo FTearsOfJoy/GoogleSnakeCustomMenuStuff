@@ -214,6 +214,14 @@ window.snake.more_menu = function() {
   img.class = 'DqMRee SsAred';
   document.querySelector('#speed').appendChild(img);
 
+      // insane
+  img = new Image;
+  img.src = 'https://github.com/FTearsOfJoy/GoogleSnakeCustomMenuStuffImages/blob/main/insane.png';
+  img.width = 47;
+  img.height = 47;
+  img.class = 'DqMRee SsAred';
+  document.querySelector('#speed').appendChild(img);
+
 
   /*--COUNTS--*/
 
